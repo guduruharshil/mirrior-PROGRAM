@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{ char a[100],b[100];
+  printf ("welcome to the mirror\n");
+  printf("ENTER YOUR NAME\n");
+  scanf("%s",&b);
+  printf("thanks for entering your name\n");
+  printf("type a letter , name or number\n");
+  scanf("%s",&a);
+  printf("hi is your name\n");
+  puts(b);
+  printf("and did you type \n ");
+  puts(a);
+  return 0;
+}
